@@ -257,7 +257,7 @@ int main( int argc, char *argv[] )
     chrono_start( &parallelReductionTime );
 
       // call it N times
-      #define NTIMES 1000
+      #define NTIMES 10
       printf( "will call parallel_reduceSum %d times\n", NTIMES );
             
       element_TYPE globalSum;

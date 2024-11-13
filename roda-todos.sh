@@ -1,6 +1,8 @@
 #!/bin/bash
 echo "USAGE: ./rodaTodos.sh <nElements>"
-    
+
+echo rodando no host `hostname`
+ 
 for i in {1..8}
 do
     echo "Executando 10 vezes com $1 elementos e $i threads:"
